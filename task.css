@@ -1,0 +1,41 @@
+*{
+    list-style: none;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: white; */
+    /* transition: .3s; */
+}
+body{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-family: 'Work Sans', sans-serif;
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    /* background-color: black; */
+}
+.container{
+    margin: 0 auto;
+    padding: 0 20px ;
+}
+@media (min-width:786px){
+    .container{
+        max-width: 750px;
+    }
+}
+@media (min-width:992px){
+    .container{
+        max-width: 970px;
+    }
+} @media (min-width:1200px){
+    .container{
+        max-width: 1170px;
+    }
+}
+p{
+    margin: 15px 0px;
+}
